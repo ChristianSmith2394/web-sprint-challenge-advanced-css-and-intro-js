@@ -136,13 +136,19 @@ button:hover{
 }
 
 @media (max-width:500px){
-     nav a {
+    nav {
+        align-items: center;
+    }
+    nav a {
         max-width: 50%;
         font-size: 1.5rem;
         padding: 0 4%;
+        display:flex;
     }
     nav span{
         border-left:1px solid #626262;
+        height: 70%;
+        display: flex;
     }
     h1 {
         font-size: 3rem;
