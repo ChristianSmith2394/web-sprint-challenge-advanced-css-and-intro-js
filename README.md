@@ -22,11 +22,18 @@ Commit your code regularly and meaningfully.
 
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
-1. How would you describe acessibility on the web to someone new to programming?
-2. Talk about 3 different things you can do to ensure your website is accessible. 
+1. How would you describe accessibility on the web to someone new to programming?
+        Accessibility on the web is writing your code in a structured and defined order so that text to audio programs can read your code in its proper order flow. In some instances, you could be sued if your webpage isn't accessible.
+2. Talk about 3 different things you can do to ensure your website is accessible.
+        Three things you could do to make sure your pages are accessible are using the proper syntax, using a proper syntax layout, and and giving your images descriptive tags. Using a button rather than a div would be an example of proper syntax. Putting your information in a structured, easy to read layout would be an example of a proper layout, opposed to jumping around. Lastly, using descriptive image tags allows for visually impaired people to understand the image you've selected that they're unable to see.
 3. How would you explain the concept of a variable to someone new to programming?
+        Variables are used to store information. That information is provided by you, the programmer. This data can be altered in the code following it by either changing it, adding to it, or even removing points from it.
 4. What is the purpose of using functions in code?
+        Functions in code are a given set of rules to produce a specific output. They take in information from wherever specified and give a specified output based on whatever parameters are written inside of it.
 5. How do you access a key inside of an object inside of an array?
+        If you have an array with an object as follows
+            var array = [{key1: value1, key2: value2}] 
+        You would use array.key1 to access value1 or array[key1] to access that same value1.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
