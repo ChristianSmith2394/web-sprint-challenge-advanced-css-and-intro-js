@@ -138,22 +138,40 @@ button:hover{
 @media (max-width:500px){
      nav a {
         max-width: 50%;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
+        padding: 0 4%;
+    }
+    nav span{
+        border-left:1px solid #626262;
     }
     h1 {
         font-size: 3rem;
     }
+
     .title-container div{
         width: 100%;
-        position: relative;
+        background-position: 37% 63%;
+        opacity: 70%;
     }
     .artist {
         width: 100%;
+    }
+    .artist a {
+        font-size: 1.3rem;
     }
     .artists-container {
         max-width: 100%;
         display: flex;
         flex-direction: column;
         justify-content:center;
+    }
+    .artists-container img {
+        width: 45%;
+        height: auto;
+    }
+    .title-container hr{
+        width:100%;
+        border: 1px outset #626262;
+        opacity: 35%;
     }
 }
