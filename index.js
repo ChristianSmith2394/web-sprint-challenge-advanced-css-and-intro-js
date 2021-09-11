@@ -244,8 +244,13 @@ If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 // Hint - Look up the .split() method
 
 function get20s(array) {
-  const numbers = array.split('')
-  
+  const twenty = [];
+  for (let i = 0; i < array.length; i++){
+    if (array[i][2].split(" ") >= 1900 && array[i][2].split(" ") <= 2000){
+      twenty.push(array[i][1])
+    }
+  }
+  return twenty
 }
 
 
