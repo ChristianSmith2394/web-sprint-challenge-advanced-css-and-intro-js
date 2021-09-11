@@ -257,10 +257,11 @@ function get20s(array) {
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
+// I'm done!
 Use removeArtist to do the following:
 1. Receive an array
 2. Receive a number which is the desired index in the array
-3. The function should remove an artist from the array at the index
+3. The function should remove an artist from the array the index
 4. Return the length of the remaining dataset.
 
 For example, if removeArtist is invoked with the artists array and the number 0, it will remove Amedeo Modigliani from our dataset and return the number 19. */
